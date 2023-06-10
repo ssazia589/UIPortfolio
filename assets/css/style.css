@@ -34,6 +34,9 @@ a{
 /* nav section start */
 nav{
     background: var(--primary-color);
+    position: sticky;
+    top: 0px;
+   
 }
 .nav-brand{
     flex:1 1 100%;
@@ -164,7 +167,7 @@ nav{
     padding: 80px 0px;
 }
 .about-us-poster{
-    flex:1 1 100%;
+    flex:1 1 150%;
 }
 .about-us-poster img{
     display: block;
@@ -172,6 +175,7 @@ nav{
 }
 .about-us-content{
     flex:1 1 200%;
+    padding: 0px 90px;
 }
 .about-us-content h5{
     font-family: "DM Sans", sans-serif;
@@ -196,7 +200,19 @@ nav{
     border-bottom: 1px solid #707070;
     padding-bottom: 40px;
 }
-/* about us section end */
 
-ssazia589@gmail.com
-ssazia589
+ span{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    color: var(--heading-color);
+    font-size: 19px;
+    line-height: 29px;
+}
+.inner-about-content p{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: 19px;
+    line-height: 29px;
+}
+/* about us section end */
